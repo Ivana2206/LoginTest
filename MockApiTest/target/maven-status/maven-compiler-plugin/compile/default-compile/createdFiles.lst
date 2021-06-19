@@ -1,0 +1,6 @@
+pages\TestCheckNumberOfLocations.class
+test\TestPage.class
+_run\TestNGRunner.class
+pages\AddFiveItemsToCart.class
+pages\AddThreeItemsToCart.class
+pages\TestToCheckWorkingHours.class
