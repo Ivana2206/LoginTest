@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Group Test" duration-ms="2018" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:57 CEST">
+    <groups>
+    </groups>
+    <test name="run test" duration-ms="2018" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:57 CEST">
+      <class name="test.TestPage">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:test.TestPage@5d76b067]" name="setExtent" is-config="true" duration-ms="11885" started-at="2021-06-21T17:18:43 CEST" finished-at="2021-06-21T17:18:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="implicitWait()[pri:0, instance:test.TestPage@5d76b067]" name="implicitWait" is-config="true" duration-ms="33" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicitWait -->
+        <test-method status="PASS" signature="signUpPageTest()[pri:0, instance:test.TestPage@5d76b067]" name="signUpPageTest" duration-ms="482" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPageTest -->
+        <test-method status="PASS" signature="implicitWait()[pri:0, instance:test.TestPage@5d76b067]" name="implicitWait" is-config="true" duration-ms="24" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicitWait -->
+        <test-method status="PASS" signature="loginPageTest()[pri:1, instance:test.TestPage@5d76b067]" name="loginPageTest" duration-ms="1435" started-at="2021-06-21T17:18:55 CEST" finished-at="2021-06-21T17:18:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.TestPage@5d76b067]" name="closeDriver" is-config="true" duration-ms="0" started-at="2021-06-21T17:18:57 CEST" finished-at="2021-06-21T17:18:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.TestPage -->
+    </test> <!-- run test -->
+  </suite> <!-- TestNG Group Test -->
+</testng-results>

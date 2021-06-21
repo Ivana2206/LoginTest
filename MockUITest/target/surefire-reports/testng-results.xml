@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T12:49:06 CEST" name="TestNG Group Test" finished-at="2021-04-19T12:50:17 CEST" duration-ms="71262">
+    <groups>
+    </groups>
+    <test started-at="2021-04-19T12:49:06 CEST" name="run-Menu-test" finished-at="2021-04-19T12:50:17 CEST" duration-ms="71262">
+      <class name="test.TestPage">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:06 CEST" name="setExtent" finished-at="2021-04-19T12:49:06 CEST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setPDFAndXML()[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:06 CEST" name="setPDFAndXML" finished-at="2021-04-19T12:49:06 CEST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPDFAndXML -->
+        <test-method signature="runingMethod()[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:06 CEST" name="runingMethod" finished-at="2021-04-19T12:49:18 CEST" duration-ms="11522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runingMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:18 CEST" name="tearDown" finished-at="2021-04-19T12:49:18 CEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runingMethod status=SUCCESS method=TestPage.runingMethod()[pri:0, instance:test.TestPage@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkNumberOfLocation()[pri:1, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:18 CEST" name="checkNumberOfLocation" finished-at="2021-04-19T12:49:27 CEST" duration-ms="9041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfLocation -->
+        <test-method signature="checkWorkingHoursForSunday()[pri:2, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:27 CEST" name="checkWorkingHoursForSunday" finished-at="2021-04-19T12:49:36 CEST" duration-ms="8468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWorkingHoursForSunday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:27 CEST" name="tearDown" finished-at="2021-04-19T12:49:27 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkNumberOfLocation status=SUCCESS method=TestPage.checkNumberOfLocation()[pri:1, instance:test.TestPage@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:36 CEST" name="tearDown" finished-at="2021-04-19T12:49:36 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkWorkingHoursForSunday status=SUCCESS method=TestPage.checkWorkingHoursForSunday()[pri:2, instance:test.TestPage@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkCanThreeItemsBeAdded()[pri:3, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:36 CEST" name="checkCanThreeItemsBeAdded" finished-at="2021-04-19T12:49:48 CEST" duration-ms="12496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCanThreeItemsBeAdded -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:48 CEST" name="tearDown" finished-at="2021-04-19T12:49:48 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCanThreeItemsBeAdded status=SUCCESS method=TestPage.checkCanThreeItemsBeAdded()[pri:3, instance:test.TestPage@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkCanFiveItemsBeAdded()[pri:4, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:49:48 CEST" name="checkCanFiveItemsBeAdded" finished-at="2021-04-19T12:50:12 CEST" duration-ms="23991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCanFiveItemsBeAdded -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:50:12 CEST" name="tearDown" finished-at="2021-04-19T12:50:12 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCanFiveItemsBeAdded status=SUCCESS method=TestPage.checkCanFiveItemsBeAdded()[pri:4, instance:test.TestPage@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closePDFAndXML()[pri:0, instance:test.TestPage@291b4bf5]" started-at="2021-04-19T12:50:12 CEST" name="closePDFAndXML" finished-at="2021-04-19T12:50:17 CEST" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePDFAndXML -->
+      </class> <!-- test.TestPage -->
+    </test> <!-- run-Menu-test -->
+  </suite> <!-- TestNG Group Test -->
+</testng-results>
